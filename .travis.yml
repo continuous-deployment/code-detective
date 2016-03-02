@@ -6,5 +6,5 @@ php:
   - hhvm
   - nightly
 install:
-  - php composer.phar install
+  - php composer.phar install --prefer-source --no-interaction
 script: phpunit
